@@ -1,0 +1,15 @@
+[submodule "lib/test"]
+	path = lib/test
+	url = https://github.com/mrkalePythonApp/server_fan.git
+[submodule "lib/gbj_utils"]
+	path = lib/gbj_utils
+	url = https://github.com/mrkalePythonLib/gbj_utils.git
+[submodule "lib/gbj_config"]
+	path = lib/gbj_config
+	url = https://github.com/mrkalePythonLib/gbj_config.git
+[submodule "lib/gbj_mqtt"]
+	path = lib/gbj_mqtt
+	url = https://github.com/mrkalePythonLib/gbj_mqtt.git
+[submodule "lib/gbj_iot"]
+	path = lib/gbj_iot
+	url = https://github.com/mrkalePythonLib/gbj_iot.git
