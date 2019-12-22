@@ -10,3 +10,6 @@
 [submodule "lib/gbj_iot"]
 	path = lib/gbj_iot
 	url = https://github.com/mrkalePythonLib/gbj_iot.git
+[submodule "lib/gbj_timer"]
+	path = lib/gbj_timer
+	url = https://github.com/mrkalePythonLib/gbj_timer.git
