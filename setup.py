@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 """Setup function for the package."""
 
-from setuptools import setup
+from setuptools import setup, find_namespace_packages
 
 setup(
   name='gbj_sw',
-  version='1.0.0',
+  version='1.0.1',
   description='Python libraries for software support.',
   long_description='Sub-packages suitable for whatever python console application.',
   classifiers=[
@@ -20,8 +20,7 @@ setup(
   author='Libor Gabaj',
   author_email='libor.gabaj@gmail.com',
   license='MIT',
-  packages=['gbj_sw', 'lib.gbj_utils', 'lib.gbj_config', 'lib.gbj_mqtt',
-            'lib.gbj_iot'],
+  packages=find_namespace_packages(),
   install_requires=[],
   include_package_data=True,
   zip_safe=False
